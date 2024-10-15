@@ -72,7 +72,7 @@ h4 {
 }
 
 p {
-  text-align: center;
+      text-align: center;
 }
   
 ul{
@@ -80,4 +80,19 @@ ul{
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+table{
+  border-collapse:collapse;
+  text-align: center;
+}
+
+  td, th{
+  border: 3px solid rgb(0, 0, 0);
+  color:#000000;
+  font-style: normal;
+}
+
+  th{
+  font-size: larger;
 }
