@@ -110,7 +110,14 @@ th{
   max-width: 600px; 
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
 video {
-  display: block;
-  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
