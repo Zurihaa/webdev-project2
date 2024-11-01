@@ -1,10 +1,14 @@
 body {
   background-color: #9ac1e7;
+  position: relative
 }
 
 #navbar {
   background-color: rgb(255, 0, 0);
   overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 #nav-container {
@@ -108,16 +112,31 @@ th{
   margin-right: auto;
   width: 80%;
   max-width: 600px; 
+  position: relative;
+  float: none;
+  clear: both;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
 }
 
 .container{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
+  position: relative;
+  clear: both;
+  margin: 20px 0;
 }
   
 video {
   max-width: 100%;
   height: auto;
+  position: relative;
+  float: none;
+  z-index: 1;
 }
